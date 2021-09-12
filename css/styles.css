@@ -7,11 +7,20 @@ body{
 }
 
 p{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 h2{
     font-size: 30px
+}
+
+@media only screen and (max-width: 900px) {
+    p{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 22px;
+    }
 }
 
 strong{
@@ -32,6 +41,9 @@ nav a{
    
 }
 
+.map{
+    display: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -127,7 +139,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /*background: grey;*/
+    
     background: url(../img/kitchen.jpeg) rgba(153, 84, 69, 0.9);
     background-size: cover;
     background-blend-mode: overlay;
@@ -265,24 +277,109 @@ a{
 }
 
 /*Gallery Grid*/
-#gallery img{
-    min-height: 400px;
-    max-height: 400px;
-    width: 600px;
+
+
+#p1{
+    display: flex;
+    max-height: 600px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background: #9c2b09;
+    
 }
 
-#gallery{
-    width: 1280px;
+.p1-writing{
+    padding: 70px;
+    color:rgb(231, 225, 225);
+    width: 100%;
+   
 }
 
+
+#p1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+#p1 img{
+    width: 50rem;
+    height: 37.6rem;
+}
+
+#p2{
+    display: flex;
+    max-height: 600px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #c27b65;
+    
+}
+
+.p2-writing{
+    padding: 70px;
+    color:rgb(231, 225, 225);
+    width: 100%;
+   
+}
+
+#p2 img{
+    width: 50rem;
+    height: 37.6rem;
+  
+}
+
+#p3{
+    display: flex;
+    max-height: 600px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background: #4e1908;
+    
+}
+
+.p3-writing{
+    padding: 70px;
+    color:rgb(231, 225, 225);
+    width: 100%;
+   
+}
+
+
+#p3 img{
+    width: 50rem;
+    height: 37.3rem;
+}
+
+/*.pair1{
+    display: flex;
+    flex-direction: row;
+}
+
+.pair2{
+    display: flex;
+    flex-direction: row;
+}
+
+.pair3{
+    display: flex;
+    flex-direction: row;   
+}*/
+/*
 #gallery{
+    background: #975744;
     display: grid;
     margin: 0;
     padding: 0;
     max-width: 100%;
     grid-template-columns: repeat(4, 300px);
     grid-template-rows: repeat(3, 400px);
-    background: black;
+    
 }
 
  .p1-writing{
@@ -318,13 +415,19 @@ a{
     grid-column: 3/5;
     grid-row: 3/4;
    }
+   */
 /*Map*/
 
 #map{
-    height: 500px;
+    height: 450px;
     min-width: 100%;
     margin: 0;
 }
+
+.small-map{
+    display: none;
+}
+
 /*Contact*/
 
 #contact{
