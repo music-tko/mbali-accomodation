@@ -506,6 +506,7 @@ footer{
     display: grid;
     padding: 20px;
     font-size: 18px;
+ 
 }
 .phone, .address{
     grid-column: 1/2;
@@ -528,8 +529,10 @@ footer a {
 @media only screen and (max-width:800px) {
     .desktop-footer{
         display: none;
+
     }
     .mobile-footer{
         display: block;
+        width: 100%;
     }
 }
