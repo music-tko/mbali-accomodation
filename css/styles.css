@@ -144,7 +144,7 @@ nav{
     .hero{
         background: url(../img/kit2.jpg) rgba(153, 84, 69, 0.9);
         background-blend-mode: overlay;
-        height: 700px;
+        height: 500px;
     }
 }
 
