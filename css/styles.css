@@ -224,14 +224,15 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #9c2b09;
-    min-height: 1100px;
+    background: #975744;
+    min-height: 1160px;
    }
 
    #about img{
-       min-width: 100%;
-       max-height: 600px;
+       max-width: 411px;
+       max-height: 700px;
    }
+
    #about h2{
     font-size: 22px;
 }
@@ -240,7 +241,21 @@ a{
         font-size: 18px;
     }
 }
+
+@media only screen and (min-width: 768px){
+
+    #about img{
+        max-width:  100%;
+    }
+}
+
     
+@media only screen and (min-width: 500px){
+
+    #about img{
+        max-width: 540px;
+    }
+}
 /*What we offer*/
 #what-we-offer{
    display: flex;
