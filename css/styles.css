@@ -1,12 +1,9 @@
-
-body{
-    margin: 0;
-    padding: 0;
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
     text-align: center;
-    width: auto;
-}
-
-
+    }
 
 p{
     font-size: 20px;
@@ -219,12 +216,11 @@ a{
    
 }
 #about img{
-    width: 50rem;
-    height: 43.8rem;
+   width: 65rem;
+    height: 43rem;
 }
 
 @media only screen and (max-width: 900px) {
-
 
    #about{
     display: flex;
@@ -249,10 +245,10 @@ a{
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
 
     #about img{
-        max-width:  100%;
+        max-width:  768px;
     }
 }
 
