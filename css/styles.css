@@ -6,6 +6,8 @@ body{
     width: auto;
 }
 
+
+
 p{
     font-size: 20px;
 }
@@ -234,7 +236,7 @@ a{
    }
 
    #about img{
-       max-width: 411px;
+       max-width: 768px;
        max-height: 700px;
    }
 
@@ -255,12 +257,20 @@ a{
 }
 
     
-@media only screen and (min-width: 500px){
+@media only screen and (max-width: 500px){
 
     #about img{
-        max-width: 540px;
+        max-width: 411px;
     }
 }
+
+@media only screen and (max-width: 400px){
+
+    #about img{
+        max-width: 375px;
+    }
+}
+
 /*What we offer*/
 #what-we-offer{
    display: flex;
