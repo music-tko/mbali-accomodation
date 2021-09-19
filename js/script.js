@@ -12,7 +12,7 @@ function mobileMenu() {
 
 /*close mobilenav*/
 
-const navLink = document.querySelectorAll(".nav-link");
+const navLink = document.querySelectorAll(".links");
 
 navLink.forEach(n => n.addEventListener("click", closeMenu));
 

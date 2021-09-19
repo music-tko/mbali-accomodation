@@ -86,7 +86,7 @@ nav{
     .nav-menu {
         position: fixed;
         left: -1000px;
-        top: 4rem;
+        top: 2.2rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
