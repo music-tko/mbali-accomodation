@@ -83,6 +83,7 @@ nav{
     nav{
         height: 20px;
     }
+
     .nav-menu {
         position: fixed;
         left: -1000px;
@@ -96,10 +97,12 @@ nav{
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
     }
+
     .hamburger {
         display: block;
         cursor: pointer;
     }
+
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -205,6 +208,7 @@ a{
     padding-top: 30px;
     
 }
+
 .about-btn{
     color: honeydew;
     padding: 8px;
@@ -215,6 +219,7 @@ a{
     border-radius: 27px;
    
 }
+
 #about img{
    width: 55rem;
     height: 43rem;
