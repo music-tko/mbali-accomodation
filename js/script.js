@@ -1,1 +1,39 @@
-const hamburger=document.querySelector(".hamburger"),navMenu=document.querySelector(".nav-menu");function mobileMenu(){hamburger.classList.toggle("active"),navMenu.classList.toggle("active")}hamburger.addEventListener("click",mobileMenu);const navLink=document.querySelectorAll(".links");function closeMenu(){hamburger.classList.remove("active"),navMenu.classList.remove("active")}navLink.forEach(e=>e.addEventListener("click",closeMenu));var slideIndex=0;function showSlides(){var e,n=document.getElementsByClassName("myImages");for(e=0;e<n.length;e++)n[e].style.opacity="0";++slideIndex>n.length&&(slideIndex=1),n[slideIndex-1].style.opacity="1",setTimeout(showSlides,3e3)}showSlides();
+/*Mobile Menu*/
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+/*close mobilenav*/
+
+const navLink = document.querySelectorAll(".links");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+
+//slide show
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("myImages");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = "0";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.opacity = "1";
+  setTimeout(showSlides, 3000); 
+}
