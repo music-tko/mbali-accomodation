@@ -40,9 +40,6 @@ nav a{
     color: #fff;
 }
 
-.map{
-    display: none;
-}
 nav{
     display: flex;
     justify-content: space-between;
