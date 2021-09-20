@@ -186,13 +186,13 @@ a{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    background: #975744;
+    background: #794635;
     
 }
 
 .about-writing{
     padding: 70px;
-    color:rgb(231, 225, 225);
+    color:#FFFFFF;
     width: 100%;
    
 }
@@ -417,7 +417,7 @@ a{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: #c27b65;
+        background: #7E4235;
         
     }
     
@@ -565,7 +565,7 @@ footer p{
 }
 
 footer a {
-    color: rgb(165, 128, 34);
+    color: #E0BF6C;
 }
 @media only screen and (max-width:800px) {
     .desktop-footer{
