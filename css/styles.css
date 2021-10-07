@@ -82,9 +82,10 @@ nav{
     }
 
     .nav-menu {
+        padding-top: 50px;
         position: fixed;
         left: -1000px;
-        top: 2.2rem;
+        top: 3.3rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
