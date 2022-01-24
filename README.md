@@ -113,7 +113,7 @@ Tablet Version Of Website Achieved with Media Queries
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@ThayDevToBe](https://twitter.com/ThayDevToBe) - thandokhoase26@gmail.com
+Thando Khoase - [@ThayDevToBe](https://twitter.com/ThayDevToBe) - thandokhoase26@gmail.com
 
 Project Link: [Live Site](https://xiluva-xa-mbali-student-residence.vercel.app/)
 
