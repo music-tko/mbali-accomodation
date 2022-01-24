@@ -28,7 +28,7 @@
     <a href="https://github.com/music-tko/mbali-accomodation"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://xiluva-xa-mbali.vercel.app">View Demo</a>
+    <a href="https://xiluva-xa-mbali-student-accomodation.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/music-tko/mbali-accomodation/issues">Report Bug</a>
     ·
